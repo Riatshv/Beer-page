@@ -1,0 +1,16 @@
+.beerCardDetailContainer {
+    display: flex;
+    align-items: center;
+}
+
+.beerCardDetail__imgContainer {
+    width: 200px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+.beerCardDetail__img {
+    max-width: 100%;
+    max-height: 100%;
+}
+

@@ -1,0 +1,7 @@
+.navbar {
+    display: flex;
+}
+
+.isActive {
+    font-size: 25px;
+}

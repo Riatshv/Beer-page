@@ -1,0 +1,35 @@
+.beerCardDescription {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px;
+    background-color: antiquewhite;
+}
+
+.beerCardDetail__tagline {
+    font-style: italic;
+}
+
+.beerCardDetail__volume {
+    display: flex;
+}
+
+.beerCardDetail__volume-title {
+    margin-right: 5px;
+    text-decoration: underline;
+}
+
+.beerCardDetail__foodPairing {
+    margin-bottom: 20px;
+}
+
+.beerCardDetail__foodPairing-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.beerCardDetail__foodPairing-item {
+    font-size: 1.1rem;
+}
+
+

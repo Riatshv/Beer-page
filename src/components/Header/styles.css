@@ -1,0 +1,25 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.middle {
+    font-size: 20px;
+}
+
+.low {
+    font-size: 15px;
+}
