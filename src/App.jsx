@@ -11,11 +11,11 @@ export const App = () => {
             <Provider store={store}>
                 <Layout>
                     <Routes>
-                        <Route path="/" element={<HomePage></HomePage>}>
+                        <Route path="/Beer-page" element={<HomePage></HomePage>}>
 
                         </Route>
 
-                        <Route path="/catalog/*" element={<BeerPage></BeerPage>}>
+                        <Route path="/Beer-page/catalog/*" element={<BeerPage></BeerPage>}>
 
                         </Route>
                     </Routes>

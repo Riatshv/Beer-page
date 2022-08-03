@@ -20,7 +20,7 @@ export const Banner =() => {
                 </div>
 
                 <div className="beerImg__button">
-                    <Link to="/catalog" className="beerImg__button-title" onClick={() => dispatch(loadBeers())}>
+                    <Link to="/Beer-page/catalog" className="beerImg__button-title" onClick={() => dispatch(loadBeers())}>
                         Click Here!
                     </Link>
                 </div>

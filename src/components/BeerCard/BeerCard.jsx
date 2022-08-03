@@ -6,7 +6,7 @@ import { selectSearchWord } from "../../store/modules/beers/selectors";
 
 export const BeerCard = ({name, description, imgSrc, id}) => {
     return (
-        <Link to={`/catalog/${id}`} className="beerCardContainer">
+        <Link to={`/Beer-page/catalog/${id}`} className="beerCardContainer">
             <div className="beerImgContainer">
                 <img className="beerImgs" src={imgSrc} alt=""></img>
             </div>

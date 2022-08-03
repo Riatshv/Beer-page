@@ -10,7 +10,7 @@ export const FailedSearching = ({searchingWord}) => {
                 <span className="searching-word"> "{searchingWord}" </span>
                 
             </div>
-            <div className="back-button" onClick={() => navigate("/catalog")}>Back to catalog</div>
+            <div className="back-button" onClick={() => navigate("/Beer-page/catalog")}>Back to catalog</div>
         </div>
 
     )

@@ -17,7 +17,7 @@ export const SearchBar = ({onInputWord}) => {
 
                     if (e.key === "Enter") {
                         onInputWord(ref.current.value);
-                        navigate(`/catalog/search`, {ref: ref.current.value})
+                        navigate(`search`)
                     }
                 }}
                 ref = {ref}
@@ -29,7 +29,7 @@ export const SearchBar = ({onInputWord}) => {
                     return;
                 }
                 onInputWord(ref.current.value);
-                navigate(`/catalog/search`)
+                navigate(`search`)
             }
 
             }>Search</div>
