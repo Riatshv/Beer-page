@@ -16,5 +16,5 @@ export const loadBeerIfNotExist = store => next => action => {
                 store.dispatch(successBeer(beer[0]))
             }
         })
-        .catch((error) => {console.log(error); store.dispatch(failedBeer())})
+        .catch((error) => {store.dispatch(failedBeer())})
 }
